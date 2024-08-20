@@ -1,11 +1,4 @@
-import Loading from "../Loading";
-
-function Home() {
-  return (
-    <div>
-      <Loading />
-    </div>
-  );
-}
-
+const Home = () => {
+  return <div></div>;
+};
 export default Home;
