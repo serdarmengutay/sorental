@@ -1,0 +1,25 @@
+@import '../../../styles/center.scss';
+
+.notFound {
+    @include alignItemsCenter();
+    font-weight: bold;
+    color: #333;
+    flex-direction: column;
+&__title {
+    font-size: 3rem;
+    color: red;
+}
+&__text {
+    font-size: 1.5rem;
+}
+&__homeLink {
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: underline;
+    transition: color 0.3s;
+
+    &:hover {
+        color: #007bff;
+    }
+}
+} 
