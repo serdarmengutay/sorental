@@ -1,0 +1,12 @@
+@import "../../../../styles/center.scss";
+
+.Searchbox {
+    @include alignItemsCenterSB();
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    gap: 5px
+}

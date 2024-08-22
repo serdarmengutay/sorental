@@ -1,0 +1,10 @@
+.headerIcons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    &__image {
+        width: 30px;
+        height: 30px;
+    }
+}

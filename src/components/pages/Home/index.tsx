@@ -1,12 +1,9 @@
-import IconAvatar from "../../atoms/IconAvatar/IconAvatar";
-import { FaHeart } from "react-icons/fa6";
+import Header from "../../organisms/Header";
 
 const Home = () => {
   return (
     <div>
-      <IconAvatar>
-        <FaHeart />
-      </IconAvatar>
+      <Header />
     </div>
   );
 };
