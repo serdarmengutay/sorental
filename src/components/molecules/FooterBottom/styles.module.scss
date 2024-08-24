@@ -1,0 +1,19 @@
+@import '../../../styles/center.scss';
+
+.FooterBottom {
+    &__bottom {
+        @include alignItemsCenterSB();
+    }
+    &__bottom-left {
+        padding: 10px;
+        padding-left: 20px;
+    }
+    &__bottom-right {
+        padding: 10px;
+        padding-right: 20px;
+    }
+    &__bottom-text {
+        color: #888;
+        font-size: 13px;
+    }
+}
