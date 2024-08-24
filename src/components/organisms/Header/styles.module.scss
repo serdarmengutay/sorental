@@ -5,12 +5,6 @@
         @include alignItemsCenterSB();
         padding: 0 20px;
     }
-    &__title {
-        font-size: 24px;
-        font-family: "Roboto", sans-serif;
-        color: #3563E9;
-        font-weight: 600;
-    } 
     &__searchbox {
         width: 30%;
     }

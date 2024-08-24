@@ -1,16 +1,14 @@
 import React from "react";
-import styles from "./styles.module.scss";
 import HeaderIcons from "../../molecules/HeaderIcons/HeaderIcons";
-import Input from "../../atoms/Input/Input";
-import Searchbox from "../../molecules/HeaderIcons/Searchbox/Searchbox";
+import Searchbox from "../../molecules/Searchbox/Searchbox";
+import Logo from "../../atoms/Logo";
+import styles from "./styles.module.scss";
 
 const Header: React.FC = () => {
   return (
     <div className={styles["Header"]}>
       <div className={styles["Header__container"]}>
-        <div className={styles["Header__logo"]}>
-          <h1 className={styles["Header__title"]}>SORENTAL</h1>
-        </div>
+        <Logo />
         <div className={styles["Header__searchbox"]}>
           <Searchbox />
         </div>

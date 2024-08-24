@@ -25,3 +25,33 @@ export const navBarIcons = [
     onclick: () => console.log("Profile Clicked"),
   },
 ];
+
+export const FooterList = [
+  {
+    title: "About",
+    links: [
+      { name: "About Us", url: "#" },
+      { name: "Contact Us", url: "#" },
+      { name: "Press", url: "#" },
+      { name: "Blog", url: "#" },
+    ],
+  },
+  {
+    title: "Help",
+    links: [
+      { name: "FAQ", url: "#" },
+      { name: "Shipping", url: "#" },
+      { name: "Returns", url: "#" },
+      { name: "Track Order", url: "#" },
+    ],
+  },
+  {
+    title: "Social",
+    links: [
+      { name: "Facebook", url: "#" },
+      { name: "Instagram", url: "#" },
+      { name: "Twitter", url: "#" },
+      { name: "Pinterest", url: "#" },
+    ],
+  },
+];

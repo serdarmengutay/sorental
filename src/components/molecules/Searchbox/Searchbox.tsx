@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import Input from "../../../atoms/Input/Input";
+import Input from "../../atoms/Input/Input";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { VscSettings } from "react-icons/vsc";
 
