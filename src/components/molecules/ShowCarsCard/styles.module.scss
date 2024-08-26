@@ -1,0 +1,25 @@
+@import '../../../styles/box-shadow.scss';
+@import '../../../styles/center.scss';
+
+.ShowCarsCard {
+    width: 640px;
+    height: 360px;
+    padding: 10px 20px;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: #f5f5f5;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-1px);
+        @include boxShadowBottom();
+    }
+    &.best {
+        background-color: #54A6FF;
+    }
+    &.easy {
+        background-color: #3563E9;
+    }
+}

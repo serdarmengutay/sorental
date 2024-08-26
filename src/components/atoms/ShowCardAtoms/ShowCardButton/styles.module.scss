@@ -1,0 +1,24 @@
+@import '../../../../styles/center.scss';
+@import '../../../../styles/box-shadow.scss';
+
+.ShowCarsCardButton {
+    @include displayCenter();
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius:4px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &.best {
+        background-color: #3563E9;
+    }
+    &.easy {
+        background-color: #54A6FF;
+    }
+    &:hover {
+        @include boxShadowBottomDarkMode();
+    }
+}

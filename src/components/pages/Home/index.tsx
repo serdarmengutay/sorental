@@ -1,17 +1,13 @@
-import Logo from "../../atoms/Logo";
 import Footer from "../../organisms/Footer";
 import Header from "../../organisms/Header";
+import MainBody from "../../organisms/MainBody";
 import MainScreenTemplate from "../../templates/MainScreenTemplate";
 
 const Home = () => {
   return (
     <MainScreenTemplate>
       <Header />
-      <div>
-        <h1>
-          Welcome to <Logo />
-        </h1>
-      </div>
+      <MainBody />
       <Footer />
     </MainScreenTemplate>
   );

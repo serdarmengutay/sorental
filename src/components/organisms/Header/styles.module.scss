@@ -4,6 +4,7 @@
     &__container {
         @include alignItemsCenterSB();
         padding: 0 20px;
+        background-color: #fff;
     }
     &__searchbox {
         width: 30%;

@@ -2,6 +2,7 @@ import { FaHeart } from "react-icons/fa6";
 import { IoIosNotifications } from "react-icons/io";
 import { IoSettingsSharp } from "react-icons/io5";
 import image from "../assets/images/avatar.jpg";
+import imageCard from "../assets/images/car1.png";
 
 export const navBarIcons = [
   {
@@ -53,5 +54,22 @@ export const FooterList = [
       { name: "Twitter", url: "#" },
       { name: "Pinterest", url: "#" },
     ],
+  },
+];
+
+export const showCardData = [
+  {
+    id: 1,
+    title: `The Best Platform \n for Car Rental`,
+    description: `Ease of doing a car rental safely and reliably. \n Of course at a low price.`,
+    type: "best",
+    image: imageCard,
+  },
+  {
+    id: 2,
+    title: `Easy way to rent \n a car at a low price`,
+    description: `We provide the best service for you to rent a car \n at a low price and of course with the best quality.`,
+    type: "easy",
+    image: imageCard,
   },
 ];
