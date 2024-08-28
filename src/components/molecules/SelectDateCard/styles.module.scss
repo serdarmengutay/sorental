@@ -1,0 +1,41 @@
+@import '../../../styles/box-shadow.scss';
+@import '../../../styles/transition.scss';
+
+.SelectDateCard {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-items: center;
+
+    &__info-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__process-type {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        color: #000;
+        font-weight: 500
+    }
+
+    &__radioBtn {
+        @include boxShadowAllDarkMode();
+        @include transition();
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+
+    &.pick {
+        background-color: #54A6FF;
+    }
+    &.drop {
+        background-color: #3563E9;
+    }
+    }
+  
+}
