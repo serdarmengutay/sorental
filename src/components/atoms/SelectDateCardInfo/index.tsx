@@ -20,7 +20,9 @@ const SelectDateCardInfo = ({ type, text }: SelectDateCardInfoProps) => {
           <IoIosArrowDown size={12} color="#666" />
         </div>
       </div>
-      <div className={styles["SelectDateCardInfo__indicator"]} />
+      {type !== "Time" && (
+        <div className={styles["SelectDateCardInfo__indicator"]} />
+      )}
     </div>
   );
 };

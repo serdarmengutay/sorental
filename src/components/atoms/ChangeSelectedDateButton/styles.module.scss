@@ -1,0 +1,16 @@
+@import '../../../styles/box-shadow.scss';
+.ChangeSelectedDateButton {
+    @include boxShadowBottom();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3563E9;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 30px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
